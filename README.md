@@ -21,29 +21,8 @@ This repository contains the laboratory works for the **Intelligent Decision Sup
 To investigate the convergence properties of gradient descent algorithms.
 
 ### Task Description
-Implement a program that realizes the gradient descent algorithm as follows:
 
-1. Calculate the cost function:
-   \[
-   E(w) = \frac{1}{2} \sigma^2 - r_{xd}^T w + \frac{1}{2} w^T R_x w,
-   \]
-   where \(\sigma^2\) is a constant,
-   \[
-   r_{xd} = \begin{pmatrix} a \\ b \end{pmatrix},
-   \]
-   \[
-   R_x = \begin{pmatrix} 1 & c \\ c & 1 \end{pmatrix},
-   \]
-   and \(a, b, c\) are specified by the variant.
-
-2. Using the gradient descent method, compute the values \(w^*(t)\) for \(t = 1, 2, \dots, T\) given the learning rate parameter \(\eta\).
-
-3. Plot the trajectory of the weight vector \(w(t)\) in three-dimensional space and its projection onto the plane \(W\).
-
-4. Select a learning rate \(\eta\) at which the gradient descent algorithm converges. Also select an \(\eta_2\) at which the algorithm diverges. For both values, plot the weight trajectories.
-
-### Parameters (Variant 2)
-\(a = 0.5\), \(b = 0.6\), \(c = 0.7\), \(\eta = 1.6\)
+<img width="902" height="622" alt="image" src="https://github.com/user-attachments/assets/bf03a9a7-390c-4b29-b750-ca12b642acf7" />
 
 ### Implementation Notes
 Implement the algorithm in Python using NumPy for matrix operations and Matplotlib for plotting. Focus on analyzing convergence by varying \(\eta\).
@@ -168,6 +147,3 @@ To learn to use transfer learning for building convolutional neural network mode
 
 ### Dataset (Variant 2)
 Rice Image Dataset from Kaggle.com
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (if applicable).
